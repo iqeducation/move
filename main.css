@@ -1,0 +1,168 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+.contanier{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* header */
+.header{
+    padding: 38px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.nav-list :hover
+{
+color: rgb(255, 51, 0);
+}
+.nav .nav-list{
+    display: flex;
+    align-items: center;
+}
+.nav-list-svg{
+    margin: 0 23px 0 15px;
+}
+.nav-list-a-button{
+    width: 179px;
+    height: 57px;
+    background-color: #0176FF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+}
+
+
+/* section */
+
+.section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-img__wrapper img{
+    margin-top: 60px;
+}
+
+.section-title__wrapper h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;  
+    color: #333333;
+    margin-bottom: 50px;
+    
+}
+
+.section-title__wrapper p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;  
+    color: #858A8F;
+    
+}
+
+.section-title__wrapper-a-svg {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #397EFF; 
+    margin-top: 30px;
+    
+}
+.section-title__wrapper-a-svg a {
+   margin-right: 13px;
+    
+}
+
+/* section slayd  */
+
+
+.contanier-1
+{
+margin: 0 auto;
+max-width: 1350px;
+background-color:rgb(204, 204, 204) ;
+}
+
+.saction-friends{
+text-align: center;
+padding: 105px;
+}
+.saction-friends-div h1
+{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;  
+    text-align: center;
+    color: #333333;
+}
+.saction-friends-div p
+{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;    
+    color: #858A8F;
+    margin: 35px 0 75px 0;
+    
+}
+
+.saction-friends-img img{
+    border-radius: 15px;
+}
+
+/* blog */
+.saction-blog-post-div
+{
+   display: flex;
+}
+
+.section-blog-post-1-div{
+    padding: 10px;
+    text-align: center;
+}
+
+.saction-blog-title h1
+{
+    margin-top: 105px;
+font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 73px;
+color: #333333    
+}
+.saction-blog-title p{
+    margin:  35px  0 98px 0 ;
+}
+
+.saction-blog-img img{
+border-radius: 50%;
+}
